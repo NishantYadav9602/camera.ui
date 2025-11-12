@@ -2,7 +2,7 @@
 .tw-w-full.tw-flex.tw-flex-col.tw-justify-center.tw-items-center(style="min-height: 100vh")
   .tw-flex.tw-items-center.tw-justify-center
     span.error-title 4
-    v-img.tw-mx-2.logo(src="@/assets/img/logo.svg" width="40px")
+    v-img.tw-mx-2.logo(src="@/assets/img/logo.png" width="40px")
     span.error-title 4
   .subtitle oops..
   span.text-muted {{ $t('page_not_found') }}

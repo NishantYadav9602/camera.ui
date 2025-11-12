@@ -9,7 +9,7 @@
           span.subtitle.tw-font-medium {{ $t('welcome_message') }} 
             strong.text-primary camera.ui
         .tw-ml-auto
-          v-img.logo(src="@/assets/img/logo.svg" width="35px")
+          v-img.logo(src="@/assets/img/logo.png" width="70px")
       v-row.tw-w-full.tw-m-0.tw-mt-5
         v-col.tw-p-0(cols="3").redline.mr-3
         v-col.tw-p-0(cols="3").grayline

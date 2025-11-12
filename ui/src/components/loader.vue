@@ -1,4 +1,4 @@
-<template lang="pug">
+<!-- <template lang="pug">
 .loader.tw-flex.tw-justify-center.tw-align-center
   inline-svg(:src="require('../assets/img/logo_loading_circle.svg')" title="camera.ui" aria-label="camera.ui" width="200px")
 </template>
@@ -160,6 +160,70 @@ div >>> .cameraLetter {
     -moz-transform: translateY(-40px) rotate(-360deg);
     -o-transform: translateY(-40px) rotate(-360deg);
     transform: translateY(-40px) rotate(-360deg);
+  }
+}
+</style> -->
+<template>
+  <div class="loader-container">
+    <div class="loader"></div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Loader'
+}
+</script>
+
+<style scoped>
+/* Center container */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  background-color: transparent; /* Optional — can set a dim background if needed */
+}
+
+/* From Uiverse.io by bociKond */
+.loader {
+  width: 44.8px;
+  height: 44.8px;
+  color: #ff69b4; /* 🎨 pink */
+  position: relative;
+  background: radial-gradient(11.2px, currentColor 94%, #0000);
+}
+
+.loader::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background:
+    radial-gradient(10.08px at bottom right, #0000 94%, currentColor) top left,
+    radial-gradient(10.08px at bottom left, #0000 94%, currentColor) top right,
+    radial-gradient(10.08px at top right, #0000 94%, currentColor) bottom left,
+    radial-gradient(10.08px at top left, #0000 94%, currentColor) bottom right;
+  background-size: 22.4px 22.4px;
+  background-repeat: no-repeat;
+  animation: loader 1.5s infinite cubic-bezier(0.3, 1, 0, 1);
+}
+
+@keyframes loader {
+  33% {
+    inset: -11.2px;
+    transform: rotate(0deg);
+  }
+
+  66% {
+    inset: -11.2px;
+    transform: rotate(90deg);
+  }
+
+  100% {
+    inset: 0;
+    transform: rotate(90deg);
   }
 }
 </style>
