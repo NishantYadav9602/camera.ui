@@ -1,2 +1,4 @@
-export * as WeatherPlaceholder from './placeholder.vue';
-export * as WeatherWidget from './widget.vue';
+import WeatherPlaceholder from './placeholder.vue';
+import WeatherWidget from './widget.vue';
+
+export { WeatherPlaceholder, WeatherWidget };

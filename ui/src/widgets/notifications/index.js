@@ -1,2 +1,4 @@
-export * as NotificationsPlaceholder from './placeholder.vue';
-export * as NotificationsWidget from './widget.vue';
+import NotificationsPlaceholder from './placeholder.vue';
+import NotificationsWidget from './widget.vue';
+
+export { NotificationsPlaceholder, NotificationsWidget };

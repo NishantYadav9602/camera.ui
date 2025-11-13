@@ -1,2 +1,4 @@
-export * as CameraPlaceholder from './placeholder.vue';
-export * as CameraWidget from './widget.vue';
+import CameraPlaceholder from './placeholder.vue';
+import CameraWidget from './widget.vue';
+
+export { CameraPlaceholder, CameraWidget };

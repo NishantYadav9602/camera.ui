@@ -1,2 +1,4 @@
-export * as UptimePlaceholder from './placeholder.vue';
-export * as UptimeWidget from './widget.vue';
+import UptimePlaceholder from './placeholder.vue';
+import UptimeWidget from './widget.vue';
+
+export { UptimePlaceholder, UptimeWidget };

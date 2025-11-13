@@ -171,8 +171,8 @@ div >>> .cameraLetter {
 
 <script>
 export default {
-  name: 'Loader'
-}
+  name: 'Loader',
+};
 </script>
 
 <style scoped>
@@ -200,8 +200,7 @@ export default {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  background:
-    radial-gradient(10.08px at bottom right, #0000 94%, currentColor) top left,
+  background: radial-gradient(10.08px at bottom right, #0000 94%, currentColor) top left,
     radial-gradient(10.08px at bottom left, #0000 94%, currentColor) top right,
     radial-gradient(10.08px at top right, #0000 94%, currentColor) bottom left,
     radial-gradient(10.08px at top left, #0000 94%, currentColor) bottom right;

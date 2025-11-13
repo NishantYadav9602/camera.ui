@@ -1,2 +1,4 @@
-export * as RssPlaceholder from './placeholder.vue';
-export * as RssWidget from './widget.vue';
+import RssPlaceholder from './placeholder.vue';
+import RssWidget from './widget.vue';
+
+export { RssPlaceholder, RssWidget };

@@ -1,2 +1,4 @@
-export * as ChartPlaceholder from './placeholder.vue';
-export * as ChartWidget from './widget.vue';
+import ChartPlaceholder from './placeholder.vue';
+import ChartWidget from './widget.vue';
+
+export { ChartPlaceholder, ChartWidget };

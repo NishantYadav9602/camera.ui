@@ -1,2 +1,4 @@
-export * as DiskPlaceholder from './placeholder.vue';
-export * as DiskWidget from './widget.vue';
+import DiskPlaceholder from './placeholder.vue';
+import DiskWidget from './widget.vue';
+
+export { DiskPlaceholder, DiskWidget };

@@ -1,2 +1,4 @@
-export * as ShortcutsPlaceholder from './placeholder.vue';
-export * as ShortcutsWidget from './widget.vue';
+import ShortcutsPlaceholder from './placeholder.vue';
+import ShortcutsWidget from './widget.vue';
+
+export { ShortcutsPlaceholder, ShortcutsWidget };

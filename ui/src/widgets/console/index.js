@@ -1,2 +1,4 @@
-export * as ConsolePlaceholder from './placeholder.vue';
-export * as ConsoleWidget from './widget.vue';
+import ConsolePlaceholder from './placeholder.vue';
+import ConsoleWidget from './widget.vue';
+
+export { ConsolePlaceholder, ConsoleWidget };

@@ -1,2 +1,4 @@
-export * as TimePlaceholder from './placeholder.vue';
-export * as TimeWidget from './widget.vue';
+import TimePlaceholder from './placeholder.vue';
+import TimeWidget from './widget.vue';
+
+export { TimePlaceholder, TimeWidget };
